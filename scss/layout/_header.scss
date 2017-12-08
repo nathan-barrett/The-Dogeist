@@ -20,3 +20,24 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    #head-icon {
+      display: flex;
+      padding-bottom: 1em;
+      align-items: center;
+      padding-top: 2em;
+      img {
+        vertical-align: middle;
+      }
+    }
+    #head-text {
+      padding-top: 1em;
+      h1 {
+        font-size: 1em;
+      }
+    }
+
+  }
+}
