@@ -1,0 +1,16 @@
+
+section.intro {
+  #intro-img {
+    justify-content: center;
+    padding: 0 auto;
+    img {
+      @include border-radius(50%);
+      width: 70%;
+      margin: 0 12%;
+      border: 10px solid $orange;
+    }
+  }
+  #intro-text {
+    padding-top: 0;
+  }
+}
