@@ -6,12 +6,18 @@ section.intro {
     img {
       @include border-radius(50%);
       width: 70%;
-      margin: 0 12%;
-      border: 10px solid $orange;
+      margin: 0 14%;
+      border: 10px solid $blue;
     }
   }
   #intro-text {
     padding-top: 0;
+    padding-bottom: 0;
+    h2 {
+      color: $gray;
+      border-top: 3px solid $blue;
+      text-align: left;
+    }
   }
 }
 @media screen and (min-width: 768px) {

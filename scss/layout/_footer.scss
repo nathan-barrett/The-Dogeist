@@ -1,10 +1,19 @@
 section.footer {
   text-align: center;
+  background-color: $blue;
+  color: $light-green;
   ul {
     list-style: none;
     padding-left: 0;
     li {
       display: inline-flex;
     }
+  }
+  button {
+    color: $light-green;
+    border: 3px solid;
+    box-shadow: 3px 3px 3px;
+    background: none;
+    cursor: pointer;
   }
 }
