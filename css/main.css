@@ -512,9 +512,8 @@ section.footer {
     section.footer ul li {
       display: inline-flex; }
   section.footer button {
-    color: #9cc5a1;
-    border: 3px solid #9cc5a1;
-    box-shadow: 3px 3px 3px;
+    color: #7b4b94;
+    border: 3px solid #7b4b94;
     background: none;
     cursor: pointer; }
 
@@ -800,7 +799,13 @@ section.intro #intro-text {
 
 #gallery-row .image {
   float: left;
-  position: relative; }
+  position: relative;
+  transition: 1s ease;
+  backface-visibility: hidden;
+  opacity: 1; }
+  #gallery-row .image:hover img {
+    opacity: 0.3;
+    transition: 1s ease; }
   #gallery-row .image:hover .overlay {
     opacity: 1; }
   #gallery-row .image .overlay {
@@ -812,11 +817,15 @@ section.intro #intro-text {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
-    background-color: #9cc5a1; }
+    transition: 1s ease;
+    background: none; }
     #gallery-row .image .overlay .text {
-      color: #39a2ae;
+      color: #7b4b94;
+      text-align: center;
+      font-weight: bold;
+      background: #39a2ae;
       font-size: 2em;
+      padding: 5%;
       position: absolute;
       top: 50%;
       left: 50%;

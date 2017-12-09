@@ -15,6 +15,13 @@
   .image{
     float: left;
     position: relative;
+    transition: 1s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    &:hover img {
+      opacity: 0.3;
+      transition: 1s ease;
+    }
     &:hover .overlay{
       opacity: 1;
     }
@@ -27,11 +34,15 @@
       height: 100%;
       width: 100%;
       opacity: 0;
-      transition: .5s ease;
-      background-color: $green;
+      transition: 1s ease;
+      background: none;
       .text {
-        color: $blue;
+        color: $purple;
+        text-align: center;
+        font-weight: bold;
+        background: $blue;
         font-size: 2em;
+        padding: 5%;
         position: absolute;
         top: 50%;
         left: 50%;
