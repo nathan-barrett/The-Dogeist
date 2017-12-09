@@ -1,24 +1,15 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass variables.
-// -----------------------------------------------------------------------------
+//color variables
+$gray: rgba(57, 62, 65, 1);
+$blue: rgba(57, 162, 174, 1);
+$purple: rgba(123, 75, 148, 1);
+$off-white: rgba(219, 219, 219, 1);
+$green: rgba(156, 197, 161, 1);
+$black: rgba (0, 0, 0, 0);
 
 
 
 
 
-/// Regular font family
-/// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
-
-
-
-
-
-/// Copy text color
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
 
