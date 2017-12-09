@@ -15,11 +15,13 @@ section.intro {
     padding-bottom: 0;
     h2 {
       color: $gray;
-      border-top: 3px solid $blue;
+      border-top: 3px solid $purple;
+      font-size: 2em;
       text-align: left;
     }
     p {
       width: 80%;
+      font-size: 1.25em;
     }
   }
 }
@@ -32,7 +34,7 @@ section.intro {
         width: 90%;
         vertical-align: middle;
         margin-left: 2.5%;
-        margin-top: 1.3em;
+        margin-top: 1.3rem;
       }
     }
     #intro-text {
