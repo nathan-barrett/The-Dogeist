@@ -1,7 +1,23 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+//NetNinja's SASS-made flex grid
+@mixin grid($col, $mgn) {
+  float: left;
+  margin-right: $mgn;
+  margin-bottom: $mgn;
+  width: ((100% - (($col - 1) * $mgn)) / $col);
+  &:nth-child(#{$col}n){
+    margin-right: 0;
+  }
+}
 
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector
@@ -31,4 +47,3 @@
     @content;
   }
 }
-

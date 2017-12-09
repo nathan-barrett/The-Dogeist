@@ -1,7 +1,7 @@
 section.footer {
   text-align: center;
   background-color: $blue;
-  color: $light-green;
+  color: $gray;
   ul {
     list-style: none;
     padding-left: 0;
@@ -10,8 +10,8 @@ section.footer {
     }
   }
   button {
-    color: $light-green;
-    border: 3px solid;
+    color: $green;
+    border: 3px solid $green;
     box-shadow: 3px 3px 3px;
     background: none;
     cursor: pointer;
