@@ -72,7 +72,7 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $breakpoint-large) {
   #gallery-row {
     .image {
       @include grid(3, 2.5%);
@@ -80,5 +80,8 @@
   }
   #gallery-text {
     font-size: 2em;
+    p {
+      font-size: 2.5rem;
+    }
   }
 }

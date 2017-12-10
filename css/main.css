@@ -786,7 +786,7 @@ section.intro #intro-text {
   section.intro #intro-text {
     font-size: 2em; }
     section.intro #intro-text p {
-      font-size: 1.8em; } }
+      font-size: 2.5rem; } }
 #gallery-text {
   padding-top: 0; }
   #gallery-text h2 {
@@ -856,6 +856,8 @@ section.intro #intro-text {
       margin-right: 0; }
 
   #gallery-text {
-    font-size: 2em; } }
+    font-size: 2em; }
+    #gallery-text p {
+      font-size: 2.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
