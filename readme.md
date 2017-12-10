@@ -44,12 +44,12 @@ I learned a lot from working with Cat and how best to approach planning a site a
 
 
 * or access gh-pages assigned to this project:
-* nathan-barrett.github.io/css-week3
+* [gh-pageslink](nathan-barrett.github.io/css-week3)
 
 ## Support and Contact Details
 * For any questions please reach out. Here are my GitHub account details:
 
-  * [Nathan Barrett](https://github.com/nathan-barrett) - thatcat13@gmail.com
+  * [Nathan Barrett](https://github.com/nathan-barrett)
 
 
 ## Technologies Used
